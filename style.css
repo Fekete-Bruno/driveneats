@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@media screen and (max-width:767px) {
+    body{
+        background-color: #E5E5E5;
+    }
+
+    header{
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100%;
+        padding: 1.5rem;
+        background-color: #CF2B2B;
+        box-shadow: 0px 4px 4px #888888;
+    }
+
+    header h1{
+        font-size: 44px;
+        color: #ffffff;
+        font-family: 'Righteous', cursive;
+    }
+    header h2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+    }
+    .prato{
+        margin-top: 8rem;
+    }
+    .prato h1{
+        font-size: 26px;
+        color: #333333;
+        font-family: 'Righteous', cursive;
+    }
+    .opcoes-prato{
+        display: flex;
+    }
+    .opcoes-prato div{
+        margin: 1rem;
+    }
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+      }
+    
+}
