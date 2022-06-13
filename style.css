@@ -6,6 +6,7 @@
 
 @media screen and (max-width:767px) {
     body{
+        position: relative;;
         background-color: #E5E5E5;
         font-family: 'Roboto', sans-serif;
     }
@@ -65,7 +66,7 @@
         height: 110px;
         object-fit: cover;
     }
-    .nome-do-item{
+    .nome{
 
         width: 90%;
         line-height: 19px;
@@ -82,7 +83,7 @@
         color: #a6a6a6;
     }
 
-    .preco{
+    .estiloPreco{
         width: 90%;
         line-height: 19px;
         font-size: 16px;
@@ -114,8 +115,68 @@
           margin: 20px;
           border-radius: 50px;
       }
-      .selected{
+      .selecionado{
         border: 5px solid green;
       }
-    
+      .ativo{
+        display: initial;
+        background-color: green;
+      }
+      .confirmarPedido{
+        display: none;
+        color:white;
+        position: fixed;
+        bottom:40vh;
+        right:20vw; 
+        background-color: green;
+        border-radius: 10px;
+        padding: 10px;
+      } 
+
+      .ativado{
+        display: flex;
+        flex-direction: column;
+      }
+      .confirmTitle{
+        margin: 10px auto;
+      }
+      .mouse:hover{
+        cursor: pointer;
+
+      }
+
+      .primeira{
+        padding: 10px;
+        display: flex;
+      }
+
+      .primeira p{
+        padding: 10px;
+      }
+
+      .segunda{
+        padding: 10px;
+        display: flex;
+      }
+      .segunda p{
+        padding: 10px;
+      }
+      .terceira{
+        padding:10px;
+        display: flex;
+      }
+      .terceira p {
+        padding: 10px;
+      }
+    .total{
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        color:green;
+        margin: 10px auto;
+        padding: 10px;
+    }
 }
